@@ -8,14 +8,14 @@ body {
 
 p {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #a8afbd;
   margin: 8px 0px;
 }
 
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #e5e7eb;
+  color: #a8afbd;
 }
 
 h1 {
@@ -60,7 +60,7 @@ button {
 }
 
 .content {
-  padding: 64px 15vw;
+  padding: 48px 15vw 96px 15vw;
 }
 
 #header-logo {
@@ -79,4 +79,34 @@ button {
 #main img {
   height: 300px;
   width: auto;
+}
+
+#information {
+  text-align: center;
+}
+
+#information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+#information .container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info {
+  text-align: center;
+  width: 200px;
+}
+
+.info img {
+  height: 200px;
+  width: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
 }
